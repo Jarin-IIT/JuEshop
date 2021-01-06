@@ -1,0 +1,320 @@
+/*
+Theme Name:Multipurpose Shop
+Theme URI: https://edatastyle.com/product/multipurpose-shop-child-theme-of-corporatesource/
+Author: eDataStyle
+Author URI: https://edatastyle.com
+Description: Multipurpose Shop is child theme of CorporateSource . Multipurpose Shop is a full featured e-commarce wordpress theme specially build for any kind of online store or Shop. Theme is compatible with woocommarce. Fully responsive layout that supports every device .The theme comes pre-packed with a drag and drop page builder (KingComposer ) to ensure you can easily design your website just how you like it . It integrates the industry standard WooCommerce e-commerce plugin, a wonderful solution for all your online commerce needs, which allows your users to browse your product catalogs in easy but stylish grace, add items to their shopping carts intuitively, and proceed to checkout and make payments, all right off your website. Official Support Forum: https://edatastyle.com/dwqa-questions/  Full Demo: https://eds.edatastyle.com/demo/mp-shop/
+Template:corporatesource
+Version: 1.6
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl.html
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-menu, featured-images, theme-options, translation-ready, custom-logo, e-commerce, footer-widgets, blog, post-formats, translation-ready, buddypress, custom-colors, featured-images, full-width-template
+Text Domain:multipurpose-shop
+*/
+
+/* Write here your own personal stylesheet */
+
+
+
+/***** button part star *****/
+body{
+outline:none;	
+}
+.theme-btn,
+.woocommerce ul.products li.product .button.theme-btn,
+.woocommerce ul.products li.product a.button {
+    min-width: 160px;
+    height: 40px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px;
+    text-transform: capitalize;
+    background-color: #78abf1;
+    font-weight: 600;
+    text-align: center;
+    line-height: 0px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+	padding:8px 25px!important;
+	line-height:24px;
+	opacity:1!important;
+}
+button.theme-btn{
+	border:none;
+	height: 49px;
+	line-height:32px;
+	margin-left:20px;
+}
+.theme-btn:hover,
+.woocommerce ul.products li.product .button.theme-btn:hover {
+    color: #000;
+}
+
+
+
+.move-eff span {
+    z-index: 2;
+    display: block;
+    position:relative;
+    width: 100%;
+    height: 100%;
+	
+}
+/*loading*/
+.woocommerce #respond input#submit.loading::after,
+.woocommerce a.button.loading::after,
+.woocommerce button.button.loading::after,
+.woocommerce input.button.loading::after {
+	content: '';
+	top: 50px;
+	right:auto;
+	-webkit-animation:0;
+	animation:0;
+}
+.move-eff::before {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: -5px;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 190px solid rgba(255, 255, 255, 0.25);
+    z-index: 1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.move-eff::after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: -5px;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 190px solid rgba(255, 255, 255, 0.25);
+    z-index: 1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.move-eff::after {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.move-eff:hover::before {
+    opacity: 1;
+    -webkit-transform: translate(0px, -190px);
+    transform: translate(0px, -190px);
+}
+
+.move-eff:hover::after {
+    opacity: 1;
+    -webkit-transform: translate(0px, -150px);
+    transform: translate(0px, -150px);
+}
+
+
+.woocommerce #respond input#submit.loading span::after,
+.woocommerce a.button.loading span::after,
+.woocommerce button.button.loading span::after,
+.woocommerce input.button.loading span::after {
+	font-family: WooCommerce;
+	content: '\e01c';
+	vertical-align: top;
+	font-weight: 400;
+	position: absolute;
+	top: .618em;
+	right: 1em;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+	top:0px;
+	right:0px;
+}
+.woocommerce #respond input#submit.added span::after, 
+.woocommerce a.button.added span::after,
+.woocommerce button.button.added span::after, 
+.woocommerce input.button.added span::after {
+	font-family: WooCommerce;
+	content: '\e017';
+	margin-left: .53em;
+	vertical-align: bottom
+}
+.single_add_to_cart{
+	float:left;	
+}
+.wc-forward{
+	float:left;
+	margin-left:20px;
+	margin-top:15px;	
+}
+
+/***** button part end *****/
+
+.woocommerce .woocommerce-breadcrumb,
+.woocommerce .woocommerce-breadcrumb a{
+	color:#FFF;	
+}
+
+.entry-summary form.cart{
+	padding-top:30px;	
+}
+
+.woocommerce div.product form.cart .group_table td:first-child{
+	width:150px;	
+}
+
+.woocommerce .header_center .woocommerce-product-rating{
+	max-width:220px;
+	display:block;
+	margin:0px auto;	
+}
+
+/*
+Tab
+*/
+.woocommerce div.product .woocommerce-tabs ul.tabs{
+	margin:0px;
+	padding:0px;	
+	border-top: 1px solid #e8e8e8;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li{
+	display:block;
+	float:none;
+	padding:0px;
+	margin:0px;
+		-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	border-radius:0px;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a{
+	display:block;
+	font-size: 16px;
+	text-align:left;
+	color: #151515;
+	border-bottom: 1px solid #e8e8e8;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 23px 45px 23px 27px;
+	outline:none;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	border-radius:0px;
+	position:relative;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li{
+	border:none;
+	background:none;
+
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs::before {
+	display:none;
+	border:none;	
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a{
+	color: #fff;
+	background-color: #354955;
+	box-shadow: 0 9px 21px 0 rgba(30, 30, 30, 0.13);
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active::after{
+	display:none;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a:after{
+	position: absolute;
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: "\f054";
+    display: inline-block;
+     font-family: 'FontAwesome';
+    color: #78abf1;
+    
+}
+#reviews #comments{
+	padding:0px;	
+}
+#reviews button.theme-btn{
+	margin-left:0px;	
+}
+
+td.product-price,
+td.product-subtotal{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:18px;
+}
+
+#theme-cross-sell ul.products li.product a img{
+	display:block!important;	
+}
+
+
+.cross-sells h2,
+.up-sells h2,
+.related.products h2{
+	font-size:24px;
+	padding-bottom:20px;	
+}
+.woocommerce span.onsale, .woocommerce ul.products li.product .onsale{
+	width:100px;	
+}
+.theme-loop-product__title a{
+	color:#000;	
+}
+.theme-loop-product__title a:hover{
+	color:#78abf1;	
+}
+.theme-btn.read-more{
+	padding-right:50px!important;
+}
+.theme-btn.read-more span{
+	display:block;	
+}
+.theme-btn.read-more span:after{
+	content: "\f178";
+	position: absolute;
+	top: 0px;
+	right: -30px;
+	display: inline-block;
+	font-family: 'FontAwesome';
+	 -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+	
+}
+.theme-btn.read-more:hover span:after{
+	right: -40px;
+}
+
+.theme-btn.read-more{
+	padding-right:50px!important;
+	margin-top:20px;
+}
+.theme-btn.read-more span{
+	display:block;
+	font-weight:normal!important;
+}
+.footer-main {
+    background-image:url(assets/image/custom-header.jpg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.footer-copyright{
+	padding-top:10px;	
+}

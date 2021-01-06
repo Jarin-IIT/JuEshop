@@ -1,0 +1,316 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Multipurpose Shop\n"
+"POT-Creation-Date: 2019-02-15 19:33+0600\n"
+"PO-Revision-Date: 2019-02-15 19:33+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:120
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:120
+#, php-format
+msgid "Proudly powered by %s ."
+msgstr ""
+
+#: functions.php:123
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:123
+msgid "https://edatastyle.com/"
+msgstr ""
+
+#. Author of the plugin/theme
+#: functions.php:123
+msgid "eDataStyle"
+msgstr ""
+
+#: functions.php:189
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: functions.php:203
+msgid ", "
+msgstr ""
+
+#: functions.php:219
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: functions.php:235
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/core-theme.php:15
+msgid "Shop Pro Theme"
+msgstr ""
+
+#: inc/core-theme.php:41
+msgid "About Multipurpose Shop"
+msgstr ""
+
+#: inc/core-theme.php:57 inc/core-theme.php:77
+msgid "Continue Reading "
+msgstr ""
+
+#: inc/shop-helper.php:33
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: inc/shop-helper.php:35
+msgid "Add WooCmmerce widgets here."
+msgstr ""
+
+#: inc/woocommerce.php:218
+msgid "Grid view"
+msgstr ""
+
+#: inc/woocommerce.php:219
+msgid "List view"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:33 woocommerce/cart/cart-totals.php:34
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:65
+#, php-format
+msgid "estimated for %s"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:86 woocommerce/cart/cart-totals.php:87
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:105
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:67
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:83
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:89
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:79
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:117
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139 woocommerce/checkout/form-coupon.php:40
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:140 woocommerce/checkout/form-coupon.php:44
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:61
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:32
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:32
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:31
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:32
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:37
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/result-count.php:60
+msgid "View:"
+msgstr ""
+
+#: woocommerce/result-count.php:63
+msgid "All"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:36
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:72
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:72
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:74
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Your Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Your Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:101
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:105
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:106
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:108
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:109
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:110
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:111
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:116
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:126
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:43
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:41
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Description"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Multipurpose Shop"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid ""
+"https://edatastyle.com/product/multipurpose-shop-child-theme-of-"
+"corporatesource/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Multipurpose Shop is child theme of CorporateSource . Multipurpose Shop is a "
+"full featured e-commarce wordpress theme specially build for any kind of "
+"online store or Shop. Theme is compatible with woocommarce. Fully responsive "
+"layout that supports every device .The theme comes pre-packed with a drag "
+"and drop page builder (KingComposer ) to ensure you can easily design your "
+"website just how you like it . It integrates the industry standard "
+"WooCommerce e-commerce plugin, a wonderful solution for all your online "
+"commerce needs, which allows your users to browse your product catalogs in "
+"easy but stylish grace, add items to their shopping carts intuitively, and "
+"proceed to checkout and make payments, all right off your website. Official "
+"Support Forum: https://edatastyle.com/dwqa-questions/  Full Demo: https://"
+"eds.edatastyle.com/demo/mp-shop/"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://edatastyle.com"
+msgstr ""

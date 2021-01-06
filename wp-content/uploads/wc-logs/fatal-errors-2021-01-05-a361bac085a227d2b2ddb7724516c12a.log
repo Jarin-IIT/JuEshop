@@ -1,0 +1,11 @@
+2021-01-05T11:10:15+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xam\htdocs\finalProject\project\wp-content\plugins\wpstream\includes\class-wpstream-live-api-connection.php:966
+Stack trace:
+#0 C:\xam\htdocs\finalProject\project\wp-content\plugins\wpstream\admin\class-wpstream-admin.php(1208): Wpstream_Live_Api_Connection->wpstream_get_videos()
+#1 C:\xam\htdocs\finalProject\project\wp-admin\includes\template.php(1389): Wpstream_Admin->display_meta_options(Object(WP_Post), Array)
+#2 C:\xam\htdocs\finalProject\project\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#3 C:\xam\htdocs\finalProject\project\wp-admin\post-new.php(75): require('C:\\xam\\htdocs\\f...')
+#4 {main}
+  thrown in C:\xam\htdocs\finalProject\project\wp-content\plugins\wpstream\includes\class-wpstream-live-api-connection.php on line 966
+
+2021-01-05T19:02:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xam\htdocs\finalProject\project\wp-includes\Requests\Transport\cURL.php on line 163
+
